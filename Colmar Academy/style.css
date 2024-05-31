@@ -1,0 +1,428 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+height: 64px;
+}
+
+.navigation {
+height: 100%;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.main-icon {
+    height: 32px;
+}
+
+.icon {
+    height: 32px;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.start-container {
+    width: 100%;
+    margin: 0px auto;
+    background-color: rgb(199, 198, 198);
+    display: block;
+}
+
+.start-text {
+    padding: 32px 16px;
+}
+.start-container h2 {
+    font-size: 32px;
+    padding-bottom: 32px;
+    color: rgb(73, 73, 73);
+}
+
+.start-container a {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+
+.start-container button {
+    height: 50px;
+    width: 100%;
+    font-size: 24px;
+    margin-top: 24px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgb(98, 97, 97);
+    color: white;
+    border: 0px;
+}
+
+.guide-text h1 {
+    color: rgb(71, 70, 70);
+    font-weight: bold;
+}
+
+.guide-text h2 {
+    color: rgb(98, 97, 97);
+    font-weight: normal;
+}
+
+.guide-container {
+    border-bottom: solid 1px rgb(199, 198, 198);
+}
+
+.courses-container {
+    border-bottom: 1px solid rgb(199, 198, 198);
+}
+
+.courses-container h1 {
+padding: 32px 0px 16px 0px;
+text-align: center;
+font-size: 45px;
+color: rgb(71, 70, 70);
+}
+
+.courses {
+padding-right: 16px;
+padding-bottom: 32px;
+}
+
+
+.courses a {
+display: block;
+margin-bottom: 8px;
+padding: 16px 0px 24px 16px;
+width: 100%;
+background-color: rgb(199, 198, 198);
+color: rgb(71, 70, 70);
+}
+
+.web-exhibit-extras {
+    display: none;
+}
+.exhibit-video {
+width: 100%; 
+height: auto;
+}
+
+/*web elements*/
+.company {
+    display: none;
+    color: rgb(98, 97, 97);
+}
+
+#colmar {
+    color: rgb(73, 73, 73);
+}
+
+.web-nav {
+    display: none;
+    padding-right: 8px;
+}
+
+.guide-container {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+padding-bottom: 32px;
+}
+
+.orientation-img, .campus-img, .guest-img {
+width: 100%;
+padding: 16px;
+}
+
+.guide-text {
+    display: inline-block;
+    text-align: left;
+    padding-left: 32px;
+}
+
+.guide-one, .guide-two, .guide-three {
+    width: 100%;
+}
+
+.guide-text a {
+    color: rgb(118, 118, 252);
+}
+
+.guide-container .web-image {
+    display: none;
+}
+
+.guide-hiring {
+    display:none;
+}
+
+.web-learning {
+    display: none;
+    background-color: rgb(199, 198, 198);
+}
+
+.web-courses img {
+    width: 300px;
+    height: auto;
+}
+
+.exhibits {
+display: block;
+text-align: center;
+margin-bottom: 24px;
+}
+
+.exhibits h1 {
+    padding: 32px 0px 16px 0px;
+}
+
+.urban {
+    display: none;
+}
+
+footer {
+    padding: 16px 0px 16px 24px;
+}
+
+@media only screen and (min-width: 1024px) /*web size*/{
+    .icon {
+        display: none;
+    }
+    .company {
+        display: inline-flex;
+        font-size: 16px;
+    }
+    .navigation {
+        display: flex;
+        float: left;
+    }
+    .web-nav {
+        height: 64px;
+        display: flex;
+        align-items: center;
+        float: right;
+    }
+    .web-nav a {
+        font-size: 16px;
+        padding-right: 16px;
+    }
+    .start-container {
+        width: 100%;
+        display: flex;
+        padding-bottom: 32px;
+        align-items: center;
+    }
+
+    .start-text button {
+    padding: 8px 0px;
+    }
+    
+    .banner {
+        padding-right: 24px;
+        width: 100%;
+    }
+    .banner img {
+        padding: 32px 24px;
+        width: 100%;
+    }
+
+    .start-text {
+        margin: 0px 100px 0px 0px;
+        padding: 0px 0px 0px 24px;
+    }
+    
+    .guide-container .orientation-img, .campus-img, .guest-img{
+        display: none;
+    }
+
+    .guide-container .web-image {
+        width: 35%;
+        height: fit-content;
+        display: flex;
+    }
+    
+    .guide-container h1 {
+        font-size: 25px;
+    }
+
+    .guide-container h2 {
+    font-size: 18px;
+    padding-bottom: 8px;
+    }
+
+    .guide-one, .guide-two, .guide-three {
+        width: 100%;
+        padding: 16px;
+        float: right;
+        display: flex;
+        align-items: center;
+    }
+
+    .guide-three {
+        background-color: rgb(199, 198, 198);
+    }
+
+    .guide-container {
+        border-left: solid 1px rgb(199, 198, 198);
+        width: 40%;
+        margin: 16px 0px;
+    }
+    .guide-container .guide-text {
+        width: 65%;
+    }
+
+    .guide-hiring {
+        display: block;
+        float: left;
+        width: 60%;
+        padding: 32px 24px;
+    }
+
+    .guide-hiring img {
+        width: 100%;
+    }
+
+    .guide-hiring h1 {
+        padding: 0px 0px 24px 24px;
+        width: 60%;
+        font-size: 20px; 
+        color: rgb(71, 70, 70);
+    }
+    .information {
+        display: inline-flex;
+    }
+
+    .web-learning {
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .courses-container {
+        display: none;
+    }
+
+    .web-courses {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    .web-learning h2 {
+        font-size: 32px;
+        padding-top: 32px;
+    }
+
+    table {
+        margin: 32px 72px 32px 72px;
+    }
+
+    table h5 {
+        padding-top: 16px;
+    }
+    table h6{
+        padding-top: 8px;
+        font-weight: 500;
+    }
+    table tr {
+        display: inline-flex;
+    }
+    table td {
+        width: 300px;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+    }
+
+    table h5 {
+        padding-left: 16px;
+        font-size: 15px;
+        margin: 0px;
+    }
+    table h6 {
+        padding-left: 16px;
+        size: 18px;
+        margin: 0px;
+        text-transform: uppercase;
+    }
+
+    table a {
+        padding: 8px 0px 24px 16px;
+        font-size: 12px;
+    }
+    .gap {
+        margin-right: 32px;
+    }
+
+    .first-row {
+        margin-bottom: 32px;
+    }
+
+    .exhibits h1 {
+        padding: 32px 0px 32px 0px;
+    }
+
+    .exhibits {
+        width: 100%;
+    }
+
+    .exhibit-container {
+        display: inline-flex;
+        margin-right: 24px;
+    }
+    .exhibit-video {
+        float:left;
+        width: 60%;
+        height: auto;
+        margin: 0px 24px 24px 24px;
+    }
+
+    .web-exhibit-extras {
+        float: right;
+        width: 40%;
+        display: block;
+    }
+
+    .fisma {
+        background-color: rgb(199, 198, 198);
+    }
+
+    .fisma, .now-and-then {
+        display: inline-flex;
+        width: 100%;
+        text-align: left;
+        padding: 16px 0px 16px 16px;
+    }
+
+    .web-exhibit-extras h2 {
+        font-size: 24px;
+    }
+
+    .web-exhibit-extras a {
+        font-size: 18px;
+    }
+
+    .fisma img, .now-and-then img {
+        width: 35%;
+        height: auto;
+        margin-right: 16px;
+    }
+
+    .exhibit-text {
+        width: 65%;
+
+    }
+
+    .urban {
+        display: flex;
+        font-size: 24px;
+        margin: 24px 0px 0px 24px;
+        border-bottom: 1px solid rgb(199, 198, 198);
+        padding-bottom: 32px;
+    }
+}
